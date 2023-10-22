@@ -12,6 +12,16 @@
   width: 30%;
 }
 
+.dot1 {
+  background-color: red;
+}
+.dot2 {
+  background-color: white;
+}
+.dot3 {
+  background-color: blue;
+}
+
 .dot:after {
   content: '';
   position: absolute;

@@ -26,9 +26,12 @@ export default function ThreeBody({ size = 35, color = 'black', speed = 1.1 }) {
         '--uib-speed': speed + 's',
       }}
     >
-      <div className={styles.dot} />
-      <div className={styles.dot} />
-      <div className={styles.dot} />
+      {/*<div className={styles.dot style.dot1} />*/}
+      <div className='styles.dot style.dot1' />
+      <div className='styles.dot style.dot2' />
+      <div className='styles.dot style.dot3' />
+      {/*<div className={styles.dot} />*/}
+      {/*<div className={styles.dot} />*/}
     </div>
   )
 }
